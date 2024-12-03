@@ -8,7 +8,7 @@ define Andrei = Character("Andrei")
 define Alex = Character("Alex")
 define Elena = Character("Elena")
 
-
+# Test Change
 label start:
     "Este o zi friguroasa de iarna. Zapada acopera totul, iar prietenii s-au adunat an parc pentru a petrece timp impreun"
     show maria 
