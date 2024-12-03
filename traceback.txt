@@ -1,0 +1,24 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 13, in script
+    Maria "Uau, ce peisaj frumos! Abia asteptam sa facem o plimbare prin parc."
+Exception: Sayer 'Maria' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 13, in script
+    Maria "Uau, ce peisaj frumos! Abia asteptam sa facem o plimbare prin parc."
+  File "D:\renpy-8.3.3-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "D:\renpy-8.3.3-sdk\renpy\ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "D:\renpy-8.3.3-sdk\renpy\ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'Maria' is not defined.
+
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.3.3.24111502
+sava iarna 1.0
+Tue Dec  3 14:26:53 2024
