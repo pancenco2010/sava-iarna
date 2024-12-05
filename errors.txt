@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 13: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    scene bg winter_park with dissolve
+File "game/script.rpy", line 243: Line is indented, but the preceding hide statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    return
     ^
 
 Ren'Py Version: Ren'Py 8.3.3.24111502
-Mon Dec  2 21:54:51 2024
+Thu Dec  5 21:21:11 2024
